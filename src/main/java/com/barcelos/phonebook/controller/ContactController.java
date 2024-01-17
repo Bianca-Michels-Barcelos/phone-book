@@ -2,7 +2,6 @@ package com.barcelos.phonebook.controller;
 
 import com.barcelos.phonebook.model.Contact;
 import com.barcelos.phonebook.service.ContactService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,17 +22,9 @@ public class ContactController {
         return null;
     }
 
-
-
-    // GET localhost:8080/contacts/hi
-
-    // GET localhost:8080/contacts
-
-    // GET /contacts
-    // GET contacts/{id}
-    // POST /contacts
-    // PUT /contacts/{id}
-    // DELETE /contacts/{id}
-
-
+    // TODO: GET /contacts
+    // TODO: GET contacts/{id}
+    // TODO: POST /contacts
+    // TODO: PUT /contacts/{id}
+    // TODO: DELETE /contacts/{id}
 }

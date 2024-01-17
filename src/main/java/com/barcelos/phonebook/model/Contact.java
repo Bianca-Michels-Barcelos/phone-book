@@ -1,7 +1,6 @@
 package com.barcelos.phonebook.model;
 
 import jakarta.persistence.*;
-
 import java.time.LocalDate;
 
 @Entity
@@ -21,7 +20,6 @@ public class Contact {
     private String phoneNumber;
     @Column(name = "email", length = 60)
     private String email;
-
 
     public Contact() {
     }
